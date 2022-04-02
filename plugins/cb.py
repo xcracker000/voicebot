@@ -17,11 +17,11 @@ async def change_language_button(c, cb: CallbackQuery):
     await cb.message.reply_text(Presets.CHANGE_LANG_TXT, reply_markup=language_button)
 
 
-@Client.on_callback_query(filters.regex(r'^en$'))
+@Client.on_callback_query(filters.regex(r'^tr$'))
 async def english_button(c, cb: CallbackQuery):
     id = cb.from_user.id
-    language_key[id] = 'en-US'
-    await cb.answer(Presets.LANGUAGE_SELECT_MSG.format("🇺🇸 English"), True)
+    language_key[id] = 'tr-TR'
+    await cb.answer(Presets.LANGUAGE_SELECT_MSG.format("🇹🇷 Turkish"), True)
     await cb.message.delete()
 
 
