@@ -43,7 +43,7 @@
         <b><u>Deploy in VPS:</u></b>
         <ul>
             <li><strong>Open a Linux Terminal and Run the below commands ( Stage: 1 )</strong></li>
-            <li><code>git clone https://github.com/m4mallu/voicebot</code></li>
+            <li><code>git clone https://github.com/01-Meyitzade-01/voicebot</code></li>
             <li><code>cd voicebot</code></li>
             <li>Create a <code>config.py</code> with the Mandatory variables (Refer sample_config.py) and save it in the bot directory.</li>
             <li><strong>Run the below commands in the same terminal ( Stage: 2 )</strong></li>
@@ -55,7 +55,7 @@
         <b><u>Deploy in Heroku</u></b>
         <ul>
             <li><strong>Click the below button to deploy the bot in Heroku</strong></li>
-            <a href="https://heroku.com/deploy?template=https://github.com/m4mallu/voicebot">
+            <a href="https://heroku.com/deploy?template=https://github.com/01-Meyitzade-01/voicebot">
             <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
         </a>
         </ul>
