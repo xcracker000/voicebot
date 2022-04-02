@@ -17,13 +17,13 @@ async def text_in(c, m: Message):
                       )
 
 
-@Client.on_callback_query(filters.regex(r'^en_voice$'))
+@Client.on_callback_query(filters.regex(r'^tr_voice$'))
 async def english_voice(c, cb: CallbackQuery):
     text = cb.message.reply_to_message.text
     title = str(text)[:8] if len(text) > 8 else text
     await cb.message.edit_text(Presets.CONV_TO_VOICE)
     await slp(1)
-    tts = Convert(text=text, lang='en')
+    tts = Convert(text=text, lang='tr')
     await cb.message.edit_text(Presets.GEN_VOICE)
     await slp(1)
     voice = tts.save(title + '.mp3')
@@ -38,7 +38,7 @@ async def english_voice(c, cb: CallbackQuery):
         pass
 
 
-@Client.on_callback_query(filters.regex(r'^en-IN_voice$'))
+@Client.on_callback_query(filters.regex(r'^tr-IN_voice$'))
 async def english_IN_voice(c, cb: CallbackQuery):
     text = cb.message.reply_to_message.text
     title = str(text)[:8] if len(text) > 8 else text
