@@ -18,7 +18,7 @@ from support.buttons import change_language, close_button
 async def aud2txt(c, m: Message):
     id = m.from_user.id
     if id not in language_key:
-        language_key[id] = 'en-US'
+        language_key[id] = 'tr-TR'
     msg = await m.reply(Presets.PROCESSING, quote=True)
     download_path = os.path.join(os.getcwd(), str(m.from_user.id))
     if not os.path.isdir(download_path):
