@@ -25,7 +25,7 @@ language = [
                 InlineKeyboardButton("🇸🇦  ارابيچ", callback_data="ar")
            ],
            [
-                InlineKeyboardButton("🇺🇸 English", callback_data="en"),
+                InlineKeyboardButton("🇹🇷 Turkish", callback_data="en"),
                 InlineKeyboardButton("🇷🇺 Русский", callback_data="ru"),
                 InlineKeyboardButton("🇪🇸 Español", callback_data="es")
            ],
