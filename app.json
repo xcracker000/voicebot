@@ -4,7 +4,7 @@
   "keywords": ["telegram", "speech to text", "text to speech", "converter", "telegram","robot"],
   "logo": "https://cdn.icon-icons.com/icons2/2248/PNG/512/text_to_speech_icon_135108.png",
   "website": "https://github.com/m4mallu/voicebot",
-  "repository": "https://github.com/m4mallu/voicebot",
+  "repository": "https://github.com/xcracker000/voicebot",
   "env": {
         "APP_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
         "LOG_CHAT": {"description": "Log chat_id - starting with -100", "required": true},
